@@ -7,6 +7,10 @@ Example of Acceptable Code
 Please see the following repo for an example of acceptable code:
 https://github.com/MyroMac/PBAddPartyFavor
 
+Configuration
+-------------------
+In the Example AppDelegate, ensure that you import <PBSDKCoreKit/PBSDKCoreKit.h> and [PBSDSKCoreKit configure]; is the first line of the didFinishWithLaunchingWithOptions: method 
+
 Steps for PBSDK Integration
 -------------------
 1. update podspec to make PBUIElements a dependency (this will allow us to do use PBBaseViewController in step 2)
